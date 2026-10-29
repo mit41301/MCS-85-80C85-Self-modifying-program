@@ -33,3 +33,13 @@ Only before starting the execution of the program, we are sure the program memor
 Same logic is applicable and true for RLC and RRC instruction of MCS-85 family. There are much more instructions with similar and opposite actions by flipping one or two bits.
 
 This may be impossible with modern computers and quantum computers! ;)
+
+You can watch the opcode entry and the outcome using real 8085 kit with output LED port located at 04H 
+
+https://youtu.be/9ejUapf6eAs?si=A55bvcd_-6JkZALx
+
+https://youtu.be/BlizkCKxztY?si=r6NIfqjC32MniZIn
+
+## UPDATE 28 OCT 2026
+Recently built another **80C85** kit with output port located at **061H**. The user RAM starts from 2000H and goes upto 3FFFH(8kB). The residential monitor located starting at 0000H and goes upto 1FFFH(8kB)  
+A85 assembler used for code assembly. The code works in actual hardware and modifying the instruction RAR <-> RAL for every time when the machine senses a CARRY condition.  
